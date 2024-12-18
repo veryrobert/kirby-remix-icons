@@ -1,13 +1,14 @@
 {
-	"name": "getkirby/pluginkit",
-	"description": "Kirby Example Plugin",
+	"name": "estd/kirby-remix-icons",
+	"description": "A Kirby CMS plugin to use Remix Icons.",
 	"license": "MIT",
 	"type": "kirby-plugin",
 	"version": "1.0.0",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "you@example.com"
+			"name": "Robert Farrelly",
+			"email": "hi@estd.dev",
+			"homepage": "https://github.com/veryrobert/kirby-remix-icons"
 		}
 	],
 	"require": {
