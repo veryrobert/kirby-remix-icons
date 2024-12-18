@@ -7,10 +7,20 @@ A Kirby CMS plugin for easy integration of [Remix Icons](https://remixicon.com/)
 Icons from [Remix Design](https://remixicon.com/). Support them at [BuyMeACoffee](https://buymeacoffee.com/remixdesign).
 
 ## Installation
+
+### Via Composer
+Run the following command in your Kirby CMS project:
+```bash
+composer require veryrobert/kirby-remix-icons
+```
+
+### Manual Installation
 1. Copy `kirby-remix-icons` to `/site/plugins/`.
 2. Use icons in your blueprints by their names.
 
-### Example Blueprint
+---
+
+## Example Blueprint
 ```yaml
 fields:
   fireLine:
@@ -25,15 +35,18 @@ fields:
 - **Fill Icon**: `arrow-down-box-fill`
 - **Line Icon**: `arrow-down-line`
 
-## Generate Your Icon Set
-Use the Python script to include your own SVGs.
+---
 
-1. Organize SVGs in `icons/` with subfolders (optional).
+## Generate Your Icon Set
+You can use the Python script to include your own custom SVGs.
+
+### Steps:
+1. Organize SVGs in the `icons/` directory (subfolders are optional).
 2. Run the script:
    ```bash
    python3 generate_icons.py
    ```
-3. Place the plugin in `/site/plugins/`.
+3. Place the generated plugin in `/site/plugins/`.
 
 ### Example Icon Structure
 ```
@@ -45,5 +58,13 @@ icons/
         square-fill.svg
 ```
 
+---
+
 ## License
-Icons by [Remix Design](https://remixicon.com/). Check their site for terms.
+This plugin uses [Remix Icons](https://remixicon.com/) under the Remix Design license:
+- **Free for Personal and Commercial Use**: No attribution required but appreciated.
+- **Prohibited Uses**:
+  - Redistribution or sale of icons as is.
+  - Use of icons in standalone applications, libraries, or design systems intended for distribution or sale.
+
+For full terms, refer to [Remix Icon License](https://remixicon.com/license).
