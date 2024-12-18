@@ -13,12 +13,12 @@ Icons from [Remix Design](https://remixicon.com/). Support them at [BuyMeACoffee
 ### Example Blueprint
 ```yaml
 fields:
-  icon:
-    label: Icon Field
-    type: icon
-    options:
-      - arrow-down-box-fill
-      - arrow-down-line
+  fireLine:
+    label: Fire Line Icon
+    icon: fire-line
+  fireFill:
+    label: Fire Fill Icon
+    icon: fire-fill
 ```
 
 ### Blueprint Examples
