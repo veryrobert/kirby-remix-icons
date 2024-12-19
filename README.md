@@ -1,6 +1,8 @@
 
 # Kirby Remix Icons Plugin
 
+![Kirby Remix Icons](kirb-remix-hero.png)
+
 A Kirby CMS plugin for easy integration of [Remix Icons](https://remixicon.com/). This plugin provides SVG icons for use in blueprints and the panel.
 
 ## Acknowledgments
