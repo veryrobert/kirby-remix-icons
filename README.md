@@ -13,7 +13,7 @@ Icons from [Remix Design](https://remixicon.com/). Support them at [BuyMeACoffee
 ### Via Composer
 Run the following command in your Kirby CMS project:
 ```bash
-composer require veryrobert/kirby-remix-icons
+composer require estd/kirby-remix-icons
 ```
 
 ### Manual Installation
