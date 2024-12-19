@@ -1,5 +1,5 @@
 
-# Kirby Remix Icons Plugin
+# Kirby Remix Icons
 
 ![Kirby Remix Icons](kirb-remix-hero.png)
 
