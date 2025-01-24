@@ -8,7 +8,7 @@ PLUGIN_NAMESPACE = "estd/kirby-remix-icons"  # Namespace for the Kirby plugin
 
 def extract_svg_content(svg_file):
     """
-    Extracts the SVG content from a file.
+    Extracts the SVG content from a file and removes specific attributes.
     """
     try:
         tree = ET.parse(svg_file)
@@ -17,12 +17,16 @@ def extract_svg_content(svg_file):
         for elem in root.iter():
             if '}' in elem.tag:
                 elem.tag = elem.tag.split('}', 1)[1]
+        # Remove viewBox attribute if it matches "0 0 24 24"
+        if root.attrib.get('viewBox') == "0 0 24 24":
+            del root.attrib['viewBox']
         # Convert back to string
         svg_content = ET.tostring(root, encoding='unicode', method='xml')
         return svg_content
     except Exception as e:
         print(f"Error processing {svg_file}: {e}")
         return None
+
 
 def escape_for_php(string):
     """
