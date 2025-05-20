@@ -5,6 +5,9 @@
 
 A Kirby CMS plugin for easy integration of [Remix Icons](https://remixicon.com/). This plugin provides SVG icons for use in blueprints and the panel.
 
+> [!IMPORTANT]  
+> By default, all icons of the Remix Icon set will be included, resulting in a rather large file to be loaded by the Panel. If you do not need the full set, consider [generating a smaller icon set](#generate-your-icon-set) for your specific use case with this plugin.
+
 ## Acknowledgments
 Icons from [Remix Design](https://remixicon.com/). Support them at [BuyMeACoffee](https://buymeacoffee.com/remixdesign).
 
